@@ -11,7 +11,7 @@ Here there is an example of how to differentiate a function
     
     println(expression)
 
-    val derivative = expr.differentiate() // Differenciated in respect to default variable "x"
+    val derivative = expr.differentiate() // Differentiated in respect to default variable "x"
 
     println(derivative)
 ```
