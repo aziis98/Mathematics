@@ -173,5 +173,5 @@ class MathExpressionMatcher(init: MathExpressionMatcher.() -> ((MathExpression) 
 fun testMatch(expression: MathExpression, init: MathExpressionMatcher.() -> (MathExpression) -> Boolean) {
     val matcher = MathExpressionMatcher(init)
 
-    
+
 }
